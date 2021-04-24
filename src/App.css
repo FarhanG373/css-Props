@@ -1,0 +1,124 @@
+.nav {
+  background-color: chocolate;
+  padding:15px;
+}
+ul {
+  margin:0px;
+  padding:0px;
+  list-style: none;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  margin-right: 30px;
+}
+li:last-child {
+  margin-right:0px;
+}
+li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+li a:hover, li a.active {
+  color:#000;
+}
+.box-shadow .control{
+   display: flex;
+   padding:20px;
+}
+.box-shadow .control label {
+  display: block;
+}
+.output, .prop_out, .ButtonView {
+  max-width: 900px;
+  margin:0 auto;
+  width: 100%;
+  margin-top: 85px;
+}
+.para_output {
+  max-width: 900px;
+  margin:0 auto;
+  width: 100%;
+}
+.output div {
+  padding:20px;
+}
+.prop_div, .para_value, .ButtonSetting, .image_style {
+  display: flex;
+  flex-wrap: wrap;
+  padding:15px;
+}
+.prop_div > div, .para_value > div, .ButtonSetting > div, .image_style > div {
+  width: 20%;
+  margin-bottom:16px;
+}
+.prop_div label, .para_value label, .ButtonSetting label, .image_style label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;;
+}
+.prop_div input, .prop_div select, .para_value input, .para_value select, .ButtonSetting input, .ButtonSetting select, .image_style input, .image_style select {
+  height:36px;
+  padding:0px 12px;
+  width: 85%;
+}
+.para_value textarea {
+  height:120px;
+  width: 85%;
+  padding:12px;
+}
+p {
+  margin:0px;
+}
+.para_output > p:first-child {
+  border-bottom:3px solid #000;
+} 
+
+input[type=color]{
+  border:0px;padding:0px;
+  background-color:transparent
+}
+h1, h2, h3, h4, h5, h6 {
+  margin:0px;
+}
+
+.card_main:after, .card_setting:after, .clear:after {
+  clear:both;
+  display: block;
+  content: "";
+}
+.card_main > div {
+  width:50%;
+  float:left;
+  padding: 20px;
+    box-sizing: border-box;
+}
+.card_main .card_setting {
+  height: 91vh;
+  overflow-y: auto;
+}
+.card_setting > div {
+  float:left;
+  width:25%;
+  margin-bottom:16px;
+}
+.card_setting label {
+  display: block;
+  font-size: 16;
+  margin-bottom: 5px;
+}
+.card_setting input, .card_setting select {
+  height: 47px;
+    padding: 6px;
+    width: 94%;
+    display: block;
+    box-sizing: border-box;
+    font-size: 16px;;
+}
+.card_setting hr {
+margin: 20px;
+    display: block;
+    float: left;
+    width: 94%;
+}
