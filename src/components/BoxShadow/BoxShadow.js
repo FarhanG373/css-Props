@@ -8,7 +8,7 @@ const BoxShadow = () => {
   const[Color, setColor] = useState('black')
   const[CheckOn, setCheckOn]  = useState(false);
     return (
-        <div className="box-shadow">  
+        <div className="box-shadow">
             <div className="control">
         <div className="form_row">
           <label for="range">Horizontal</label>
